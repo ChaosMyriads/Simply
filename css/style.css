@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+
+body {
+  font-family: "Montserrat";
+  background-color: #c4c4e4;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  background: #ffffff;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.sidebar {
+  max-width: 370px;
+  background: #e0ebfe;
+}
+.sidebar__my-photo {
+  margin-top: 40px;
+}
+.sidebar__my-photo img {
+  width: 370px;
+}
+
+.contacts-sidebar {
+  margin: 40px 0 0 40px;
+}
+.contacts-sidebar__label {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2; 
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+.contacts-sidebar__item span {
+  font-size: 14px;
+  line-height: 1.7; 
+  color: #16102a;
+  margin-right: 8px;
+}
+.contacts-sidebar__number {
+  font-size: 14px;
+  line-height: 1.7; 
+  color: #16102a;
+}
+.contacts-sidebar__email {
+  font-size: 14px;
+  line-height: 1.7; 
+  color: #2979ff;
+}
+.sidebar__tech-skills {
+  margin: 40px 0 0 40px;
+}
+
+.tech-skills-sidebar__label {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2; 
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+.tech-skills-sidebar__item {
+  font-size: 14px;
+  line-height: 1.7; 
+  color: #16102a;
+}
+.sidebar__soft-skills {
+  margin: 40px 0 0 40px;
+}
+
+.soft-skills-sidebar__label {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2; 
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+.soft-skills-sidebar__item {
+  font-size: 14px;
+  line-height: 1.7; 
+  color: #16102a;
+}
+
+.main {
+  padding: 88px;
+}
+.main__about-me {
+  margin-bottom: 64px;
+}
+
+.about-me-main__profession {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2; 
+  margin-bottom: 18px;
+}
+.about-me-main__name {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2; 
+  margin-bottom: 28px;
+}
+.about-me-main__descr {
+  font-size: 14px;
+  line-height: 1.7; /* 24px/14 */
+  color: #595959;
+}
+.main__projects {
+  margin-bottom: 48px;
+}
+
+.projects-main__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2; /* 27px/22 */
+  margin-bottom: 8px;
+}
+.projects-main__list {
+  padding-left: 18px;
+}
+.projects-main__item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7; /* 24px/14 */
+}
+.projects-main__item span {
+  font-size: 14px;
+  line-height: 1.7; 
+  color: #595959;
+}
+.projects-main__item a {
+  font-size: 14px;
+  line-height: 1.7; 
+  text-decoration-line: underline;
+  color: #005fff;
+}
+.main__work-experience {
+  margin-bottom: 44px;
+}
+
+.work-experience-main__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2; 
+}
+.work-experience-main__place {
+  margin-bottom: 16px;
+}
+.work-experience-main__position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2; 
+}
+.work-experience-main__position span {
+  color: #6d9bf5;
+}
+.work-experience-main__period {
+  font-size: 12px;
+  line-height: 1.2; 
+  color: #a8a8a8;
+  margin: 12px 0 8px 0;
+}
+
+.work-experience-main__duties {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #595959;
+}
+
+.education-main__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2; 
+}
+.education-main__period {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2; 
+  color: #6d9bf5;
+  margin-bottom: 16px;
+}
+.education-main__position {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2; 
+}
+.education-main__item {
+  font-size: 12px;
+  line-height: 1.2; 
+  margin: 12px 0 8px 0;
+}
